@@ -1,0 +1,39 @@
+model first_model
+
+uses "mmxprs"
+
+parameters
+  lower_bound_a= 100
+  upper_bound = 1000
+end-parameters
+
+declarations
+  our_objective: linctr
+  
+  adding:linctr
+  
+  const: linctr
+  
+  x1: mpvar
+  
+  x2: mpvar
+  
+end-declarations
+
+our_objective := x1 + x2
+
+adding := x1 + x2 <= upper_bound
+
+const := x2 >= lower_bound_a
+
+maximise(our_objective)
+
+sol_x1:= getsol(x1)
+sol_x2 := getsol(x2)
+sol_opt := getobjval
+
+writeln("Optimal value of x1 = ", sol_x1)
+writeln("Optimal value of x2 = ", sol_x2)
+writeln("Optimal value of objective function = ", sol_opt)
+
+end-model

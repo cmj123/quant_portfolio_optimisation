@@ -1,0 +1,201 @@
+{
+    "console": {
+        "@expanded": true,
+        "@height": "300",
+        "@maximized": "false",
+        "json()": {
+            "meta": {
+                "accessList": [
+                    "tab3"
+                ]
+            },
+            "name": "pane1",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab3",
+                    "path": "",
+                    "className": [
+                        "tab3"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1644242825133
+                        },
+                        "filter": true,
+                        "title": "first.mos - Stopped",
+                        "tooltip": "first.mos - Stopped",
+                        "output": {
+                            "id": "output414660",
+                            "width": 1208,
+                            "height": 268,
+                            "config": {
+                                "runner": "Mosel",
+                                "command": "first.mos",
+                                "debug": false,
+                                "toolbar": true,
+                                "env": {}
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": true
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "ext": {
+        "counters": {
+            "@ace": 1,
+            "@acestatus": 1,
+            "@base-step-wizard": 2,
+            "@divider": 4,
+            "@document": 4,
+            "@editorswitch": 1,
+            "@fico.vdl.attributes-panel": 1,
+            "@fico.vdl.palette-panel": 1,
+            "@form": 4,
+            "@menu": 3,
+            "@menuitem": 8,
+            "@pane": 2,
+            "@session": 4,
+            "@tab": 4,
+            "@undoManager": 4,
+            "@welcome": 1
+        }
+    },
+    "findinfiles": {
+        "@console": "true",
+        "@matchcase": "false",
+        "@regex": "false",
+        "@scope": "selection",
+        "@wholeword": "false"
+    },
+    "local": {
+        "window": {
+            "@fullscreen": true,
+            "@maximized": false,
+            "@minimized": false,
+            "@position": "120:25",
+            "@size": "1200:762"
+        }
+    },
+    "menus": {
+        "@minimized": "false"
+    },
+    "nak": {
+        "@installed": true
+    },
+    "od": {
+        "@last-run-config": "path:first.mos"
+    },
+    "panecycle": {
+        "json()": [
+            "tab1",
+            "tab3"
+        ]
+    },
+    "panels": {
+        "@active-left": "tree",
+        "@active-right": "none",
+        "commands.panel": {
+            "@enabled": "false",
+            "@name": "commands.panel"
+        },
+        "debugger": {
+            "@enabled": "true",
+            "@name": "debugger"
+        },
+        "fico.ide.language.mosel.modules-panel": {
+            "@enabled": "true",
+            "@name": "fico.ide.language.mosel.modules-panel"
+        },
+        "fico.om.sidebar": {
+            "@enabled": "true",
+            "@name": "fico.om.sidebar"
+        },
+        "fico.vdl.attributes-panel0": {
+            "@enabled": "false",
+            "@name": "fico.vdl.attributes-panel0"
+        },
+        "fico.vdl.palette-panel0": {
+            "@enabled": "false",
+            "@name": "fico.vdl.palette-panel0"
+        },
+        "mosel.profiler": {
+            "@enabled": "true",
+            "@name": "mosel.profiler"
+        },
+        "navigate": {
+            "@enabled": "false",
+            "@name": "navigate"
+        },
+        "outline": {
+            "@enabled": "true",
+            "@name": "outline"
+        },
+        "tree": {
+            "@enabled": "true",
+            "@name": "tree"
+        }
+    },
+    "projecttree": {
+        "expanded": {
+            "json()": [
+                "/"
+            ]
+        }
+    },
+    "recentfiles": {
+        "json()": []
+    },
+    "tabs": {
+        "json()": {
+            "focus": "/first.mos",
+            "meta": {
+                "accessList": [
+                    "tab1"
+                ]
+            },
+            "name": "pane0",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab1",
+                    "path": "/first.mos",
+                    "className": [
+                        "tab1",
+                        "focus"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1644242811532
+                        },
+                        "filter": true,
+                        "title": "first.mos",
+                        "tooltip": "/first.mos",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": true
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "tree_selection": {
+        "json()": [
+            "/model.mos"
+        ]
+    },
+    "welcome": {
+        "@first": true
+    }
+}
